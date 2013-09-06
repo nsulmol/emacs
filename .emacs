@@ -20,3 +20,6 @@
   '(progn
      (color-theme-initialize)
      (color-theme-charcoal-black)))  ;; This is the theme you want to use.
+
+(add-to-list 'load-path "~/elisp")
+(require 'better-defaults)
